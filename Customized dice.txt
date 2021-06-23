@@ -1,0 +1,21 @@
+import random
+import time
+list1=[6,1,2,6,3,6,4,5,6]
+print("*****DICE SIMULATOR ******")
+time.sleep(0.5)
+choice="y"
+while (choice=="y" or choice=="Y"):
+    print("Rollong the dice!!")
+    time.sleep(1)
+    print("You got ")
+    print(random.choice(list1))
+    time.sleep(0.5)
+    print(random.choice(list1))
+    time.sleep(0.5)
+    print("Do yo want to roll the dice again? Press \"y\" for Yes and Any other key for No : ")
+    choice = input()
+if choice!="Y" or choice!="y":
+    time.sleep(0.5)
+    print("Have a good day , Will meet you next time!!")
+
+
